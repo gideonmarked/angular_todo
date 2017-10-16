@@ -1,0 +1,12 @@
+.completed h3, .completed .task-description {
+    color: #aaa !important;
+    text-decoration: line-through;
+}
+
+.md-list-item-text a {
+    text-decoration: none;
+}
+
+.deleted {
+	display: none;
+}

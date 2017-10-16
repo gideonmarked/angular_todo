@@ -1,0 +1,19 @@
+<div layout="column" ng-cloak class="md-inline-form">
+	<md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
+	    <form style="width: 100%;" ng-submit="editToDo()">
+	    <div layout-gt-sm="row">
+			<md-input-container>
+				<label>Task</label>
+				<input id="new-todo" placeholder="Enter task title" ng-model="current_todo.title" ng-disabled="saving" autofocus>
+			</md-input-container>
+			<md-input-container>
+				<label>Description</label>
+				<input id="new-todo" placeholder="Enter task description" ng-model="current_todo.description" ng-disabled="saving" autofocus>
+			</md-input-container>
+			<md-input-container>
+				<md-button class="md-accent md-raised md-hue-1 pull-right" ng-click="returnIndex()">Save and Exit</md-button>
+			</md-input-container>
+		</div>
+		</form>
+	</md-content>
+</div>
